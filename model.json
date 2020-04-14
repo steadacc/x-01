@@ -1,0 +1,93 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "esercizio uno",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "basta",
+                        "stop"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "no"
+                    ]
+                },
+                {
+                    "name": "QuestionCapitalIntent",
+                    "slots": [],
+                    "samples": [
+                        "si"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "ResponseCapitalIntent",
+                    "slots": [
+                        {
+                            "name": "capital",
+                            "type": "AMAZON.City"
+                        }
+                    ],
+                    "samples": [
+                        "{capital}"
+                    ]
+                },
+                {
+                    "name": "ResponseNameIntent",
+                    "slots": [
+                        {
+                            "name": "firstname",
+                            "type": "AMAZON.FirstName"
+                        }
+                    ],
+                    "samples": [
+                        "{firstname}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "confermation",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "vai"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "eccomeno"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "certo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "si"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "yes"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
